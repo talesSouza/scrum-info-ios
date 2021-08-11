@@ -1,0 +1,13 @@
+[
+    { "principle": "control", "description": "Transparency, evaluation, and adaptation underlie Scrum methodology"},
+    
+    { "principle": "self-organization", "description": "This principle increases the level of independence of the whole team and also helps to assess their performance"},
+    
+    { "principle": "Collaboration", "description": "Awareness, clarity, and distribution become particularly important while working on each release"},
+    
+    { "principle": "Value-based prioritization", "description": "In Scrum, tasks are constantly prioritized based on their value and importance for the end-users and the company to determine the order in which these tasks need to be completed"},
+    
+    { "principle": "Timeboxing", "description": "It implies allocating and scheduling certain amounts of time for certain activities. In Scrum, work is done in short release cycles called “sprints” (usually 2-4 weeks). Tasks are determined during sprint planning (usually around 1-2 hours), monitored and discussed at daily meetings (usually around 15 minutes), evaluated during sprint reviews (usually around 1-2 hours), etc."},
+    
+    { "principle": "Iterative development", "description": "As the project requirements in Scrum are constantly being adjusted and revised, software development activities in this framework are also repeated, revisited, and reworked to create the best product."}
+]
