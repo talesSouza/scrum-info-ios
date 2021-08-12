@@ -13,14 +13,12 @@
 		1C6EE76126C2AC60006C6B46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EE75F26C2AC60006C6B46 /* Main.storyboard */; };
 		1C6EE76326C2AC61006C6B46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EE76226C2AC61006C6B46 /* Assets.xcassets */; };
 		1C6EE76626C2AC61006C6B46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EE76426C2AC61006C6B46 /* LaunchScreen.storyboard */; };
-		1C6EE77126C2BA6B006C6B46 /* Principles.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EE77026C2BA51006C6B46 /* Principles.json */; };
+		1C6EE77126C2BA6B006C6B46 /* principles.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EE77026C2BA51006C6B46 /* principles.json */; };
 		1C6EE77326C2BBD5006C6B46 /* Principles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE77226C2BBD5006C6B46 /* Principles.swift */; };
-		1C6EE77E26C2FB06006C6B46 /* JsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE77D26C2FB06006C6B46 /* JsonDecoder.swift */; };
+		1C6EE77E26C2FB06006C6B46 /* PrinciplesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE77D26C2FB06006C6B46 /* PrinciplesService.swift */; };
 		1C6EE78226C2FE87006C6B46 /* ScrumUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE78126C2FE87006C6B46 /* ScrumUsersViewController.swift */; };
 		1C6EE78A26C30148006C6B46 /* ScrumUserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE78926C30148006C6B46 /* ScrumUserCollectionViewCell.swift */; };
 		1C6EE78D26C33A9A006C6B46 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE78C26C33A9A006C6B46 /* User.swift */; };
-		1C6EE79026C33DC8006C6B46 /* LoadURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE78F26C33DC8006C6B46 /* LoadURL.swift */; };
-		1CDB548A26C36179004C6E95 /* SettingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB548926C36179004C6E95 /* SettingObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,14 +30,12 @@
 		1C6EE76226C2AC61006C6B46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C6EE76526C2AC61006C6B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C6EE76726C2AC61006C6B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C6EE77026C2BA51006C6B46 /* Principles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Principles.json; sourceTree = "<group>"; };
+		1C6EE77026C2BA51006C6B46 /* principles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = principles.json; sourceTree = "<group>"; };
 		1C6EE77226C2BBD5006C6B46 /* Principles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principles.swift; sourceTree = "<group>"; };
-		1C6EE77D26C2FB06006C6B46 /* JsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecoder.swift; sourceTree = "<group>"; };
+		1C6EE77D26C2FB06006C6B46 /* PrinciplesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinciplesService.swift; sourceTree = "<group>"; };
 		1C6EE78126C2FE87006C6B46 /* ScrumUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumUsersViewController.swift; sourceTree = "<group>"; };
 		1C6EE78926C30148006C6B46 /* ScrumUserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumUserCollectionViewCell.swift; sourceTree = "<group>"; };
 		1C6EE78C26C33A9A006C6B46 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		1C6EE78F26C33DC8006C6B46 /* LoadURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadURL.swift; sourceTree = "<group>"; };
-		1CDB548926C36179004C6E95 /* SettingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,14 +68,12 @@
 		1C6EE75826C2AC60006C6B46 /* Scrum */ = {
 			isa = PBXGroup;
 			children = (
-				1C6EE75926C2AC60006C6B46 /* AppDelegate.swift */,
-				1C6EE75B26C2AC60006C6B46 /* SceneDelegate.swift */,
-				1C6EE76F26C2AC85006C6B46 /* Model */,
+				47ABA7F626C49E7200FBBE63 /* App */,
 				1C6EE76D26C2AC78006C6B46 /* Controller */,
+				47ABA7F326C49BDB00FBBE63 /* Resources */,
+				1C6EE76F26C2AC85006C6B46 /* Model */,
+				47ABA7F426C49D5300FBBE63 /* Service */,
 				1C6EE76E26C2AC7F006C6B46 /* View */,
-				1C6EE76226C2AC61006C6B46 /* Assets.xcassets */,
-				1C6EE76426C2AC61006C6B46 /* LaunchScreen.storyboard */,
-				1C6EE76726C2AC61006C6B46 /* Info.plist */,
 			);
 			path = Scrum;
 			sourceTree = "<group>";
@@ -104,10 +98,8 @@
 		1C6EE76F26C2AC85006C6B46 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1C6EE78E26C33BAE006C6B46 /* Principles */,
+				1C6EE77226C2BBD5006C6B46 /* Principles.swift */,
 				1C6EE78C26C33A9A006C6B46 /* User.swift */,
-				1C6EE78F26C33DC8006C6B46 /* LoadURL.swift */,
-				1CDB548926C36179004C6E95 /* SettingObject.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -121,14 +113,40 @@
 			path = ScrumUsers;
 			sourceTree = "<group>";
 		};
-		1C6EE78E26C33BAE006C6B46 /* Principles */ = {
+		47ABA7F326C49BDB00FBBE63 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1C6EE77226C2BBD5006C6B46 /* Principles.swift */,
-				1C6EE77026C2BA51006C6B46 /* Principles.json */,
-				1C6EE77D26C2FB06006C6B46 /* JsonDecoder.swift */,
+				47ABA7F826C4A35F00FBBE63 /* JSON */,
+				1C6EE76426C2AC61006C6B46 /* LaunchScreen.storyboard */,
+				1C6EE76226C2AC61006C6B46 /* Assets.xcassets */,
 			);
-			path = Principles;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		47ABA7F426C49D5300FBBE63 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1C6EE77D26C2FB06006C6B46 /* PrinciplesService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		47ABA7F626C49E7200FBBE63 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1C6EE75926C2AC60006C6B46 /* AppDelegate.swift */,
+				1C6EE75B26C2AC60006C6B46 /* SceneDelegate.swift */,
+				1C6EE76726C2AC61006C6B46 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		47ABA7F826C4A35F00FBBE63 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				1C6EE77026C2BA51006C6B46 /* principles.json */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C6EE77126C2BA6B006C6B46 /* Principles.json in Resources */,
+				1C6EE77126C2BA6B006C6B46 /* principles.json in Resources */,
 				1C6EE76626C2AC61006C6B46 /* LaunchScreen.storyboard in Resources */,
 				1C6EE76326C2AC61006C6B46 /* Assets.xcassets in Resources */,
 				1C6EE76126C2AC60006C6B46 /* Main.storyboard in Resources */,
@@ -205,11 +223,9 @@
 				1C6EE78A26C30148006C6B46 /* ScrumUserCollectionViewCell.swift in Sources */,
 				1C6EE78226C2FE87006C6B46 /* ScrumUsersViewController.swift in Sources */,
 				1C6EE77326C2BBD5006C6B46 /* Principles.swift in Sources */,
-				1CDB548A26C36179004C6E95 /* SettingObject.swift in Sources */,
-				1C6EE77E26C2FB06006C6B46 /* JsonDecoder.swift in Sources */,
+				1C6EE77E26C2FB06006C6B46 /* PrinciplesService.swift in Sources */,
 				1C6EE78D26C33A9A006C6B46 /* User.swift in Sources */,
 				1C6EE75E26C2AC60006C6B46 /* InitialViewController.swift in Sources */,
-				1C6EE79026C33DC8006C6B46 /* LoadURL.swift in Sources */,
 				1C6EE75A26C2AC60006C6B46 /* AppDelegate.swift in Sources */,
 				1C6EE75C26C2AC60006C6B46 /* SceneDelegate.swift in Sources */,
 			);
@@ -360,7 +376,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5AHKNAYZ3;
-				INFOPLIST_FILE = Scrum/Info.plist;
+				INFOPLIST_FILE = Scrum/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,7 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5AHKNAYZ3;
-				INFOPLIST_FILE = Scrum/Info.plist;
+				INFOPLIST_FILE = Scrum/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -12,18 +12,17 @@ class InitialViewController: UIViewController {
     @IBOutlet weak var scrumUsersButton: UIButton!
     
     // MARK: - Properties
+    let principlesService = PrinciplesService()
     var user = User()
 }
 
 // MARK: - LifeCycle
 extension InitialViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         userNameTextField.delegate = self
         settingObjects()
-        
-        let principles = JsonDecoder().parseJson()
-        print("")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -54,14 +53,17 @@ extension InitialViewController {
 
 // MARK: - IBActions
 extension InitialViewController {
+    
     @IBAction func openScrumMasterURLTouchUpInside(_ sender: UIButton) {
-        loadURL()
+        loadScrumMasterURL()
     }
 }
 
 // MARK: - UITextFieldDelegate
 extension InitialViewController: UITextFieldDelegate {
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
         userNameTextField.resignFirstResponder()
         userAgeTextField.resignFirstResponder()
         
@@ -73,5 +75,22 @@ extension InitialViewController: UITextFieldDelegate {
     }
 }
 
+// MARK: - SrumMasterURL
+extension InitialViewController {
+    
+    public func loadScrumMasterURL() {
+        if let url = URL(string: "https://www.scrum.org/professional-scrum-certifications/professional-scrum-master-assessments"),
+           UIApplication.shared.canOpenURL(url) {
+            UIApplication.shared.open(url, options: [:])
+        }
+    }
+}
 
 
+extension InitialViewController {
+    func settingObject(object: AnyObject, width: CGFloat = 1, radius: CGFloat = 5, color: UIColor = .white) {
+        object.layer?.cornerRadius = radius
+        object.layer?.borderWidth = width
+        object.layer?.borderColor = color.cgColor
+    }
+}
