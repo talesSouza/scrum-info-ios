@@ -316,6 +316,9 @@
                                 <state key="normal" title="See more">
                                     <color key="titleColor" red="0.1058823466" green="0.26274511220000002" blue="0.2823529541" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="5Ic-Rk-rCM" kind="show" id="zHV-dn-ORz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="opL-JB-hCd"/>
@@ -351,10 +354,11 @@
                         <viewLayoutGuide key="safeArea" id="27Z-O1-AFm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="L5W-pg-WVf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rq3-ga-0Qm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3703" y="94"/>
+            <point key="canvasLocation" x="3393" y="94"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XSL-1M-sF0">
@@ -435,6 +439,9 @@
                                 <state key="normal" title="See more">
                                     <color key="titleColor" red="0.1058823466" green="0.26274511220000002" blue="0.2823529541" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="5Ic-Rk-rCM" kind="show" id="trY-8A-dc5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Rpc-cI-4LA"/>
@@ -496,6 +503,9 @@
                                 <state key="normal" title="See more">
                                     <color key="titleColor" red="0.1058823466" green="0.26274511220000002" blue="0.2823529541" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="5Ic-Rk-rCM" kind="show" id="LG9-Uu-xhu"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xus-fQ-VKC"/>
@@ -558,6 +568,9 @@
                                 <state key="normal" title="See more">
                                     <color key="titleColor" red="0.1058823466" green="0.26274511220000002" blue="0.2823529541" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="5Ic-Rk-rCM" kind="show" id="ITE-aX-EY6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jbJ-TI-prt"/>
@@ -682,6 +695,9 @@
                                 <state key="normal" title="See more">
                                     <color key="titleColor" red="0.1058823466" green="0.26274511220000002" blue="0.2823529541" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="5Ic-Rk-rCM" kind="show" id="SDo-QY-qu4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bVq-aW-9X3"/>
@@ -708,6 +724,9 @@
             <point key="canvasLocation" x="2638" y="1552"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="SDo-QY-qu4"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="background2" width="101.33333587646484" height="170"/>
         <image name="background3" width="120" height="240"/>
