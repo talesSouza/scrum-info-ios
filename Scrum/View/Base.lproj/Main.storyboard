@@ -177,7 +177,7 @@
         <!--Scrum Users-->
         <scene sceneID="B9b-PE-erR">
             <objects>
-                <viewController id="eTw-Hh-mhW" customClass="ScrumUsersViewController" customModule="Scrum" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eTw-Hh-mhW" customClass="CompaniesViewController" customModule="Scrum" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2hh-Et-0sq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -192,7 +192,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="scrumUserCell" id="pu6-eT-1h6" customClass="ScrumUserCollectionViewCell" customModule="Scrum" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="companyCell" id="pu6-eT-1h6" customClass="CompanyCollectionViewCell" customModule="Scrum" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="hmh-hV-WZ1">
@@ -229,7 +229,7 @@
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="200" height="200"/>
                                         <connections>
-                                            <outlet property="userPhoto" destination="ZtU-A3-EHn" id="pwf-JO-qDK"/>
+                                            <outlet property="photo" destination="ZtU-A3-EHn" id="pwf-JO-qDK"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -272,7 +272,7 @@
                     <navigationItem key="navigationItem" title="Scrum Users" largeTitleDisplayMode="always" id="6xv-UX-bAd"/>
                     <connections>
                         <outlet property="bottomQuestionLabel" destination="uy2-4c-XvX" id="drp-2P-SA6"/>
-                        <outlet property="scrumUsersCollectionView" destination="nAe-XQ-Jmf" id="76V-vb-IIj"/>
+                        <outlet property="companiesCollectionView" destination="nAe-XQ-Jmf" id="76V-vb-IIj"/>
                         <outlet property="topQuestionLabel" destination="u4W-ri-2YU" id="DFT-Nc-hA0"/>
                     </connections>
                 </viewController>

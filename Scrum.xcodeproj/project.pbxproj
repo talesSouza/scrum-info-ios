@@ -16,8 +16,8 @@
 		1C6EE77126C2BA6B006C6B46 /* principles.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EE77026C2BA51006C6B46 /* principles.json */; };
 		1C6EE77326C2BBD5006C6B46 /* Principles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE77226C2BBD5006C6B46 /* Principles.swift */; };
 		1C6EE77E26C2FB06006C6B46 /* PrinciplesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE77D26C2FB06006C6B46 /* PrinciplesService.swift */; };
-		1C6EE78226C2FE87006C6B46 /* ScrumUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE78126C2FE87006C6B46 /* ScrumUsersViewController.swift */; };
-		1C6EE78A26C30148006C6B46 /* ScrumUserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE78926C30148006C6B46 /* ScrumUserCollectionViewCell.swift */; };
+		1C6EE78226C2FE87006C6B46 /* CompaniesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE78126C2FE87006C6B46 /* CompaniesViewController.swift */; };
+		1C6EE78A26C30148006C6B46 /* CompanyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE78926C30148006C6B46 /* CompanyCollectionViewCell.swift */; };
 		1C6EE78D26C33A9A006C6B46 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE78C26C33A9A006C6B46 /* User.swift */; };
 		47ABA80726C4A6D300FBBE63 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ABA80626C4A6D300FBBE63 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
@@ -34,8 +34,8 @@
 		1C6EE77026C2BA51006C6B46 /* principles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = principles.json; sourceTree = "<group>"; };
 		1C6EE77226C2BBD5006C6B46 /* Principles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principles.swift; sourceTree = "<group>"; };
 		1C6EE77D26C2FB06006C6B46 /* PrinciplesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinciplesService.swift; sourceTree = "<group>"; };
-		1C6EE78126C2FE87006C6B46 /* ScrumUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumUsersViewController.swift; sourceTree = "<group>"; };
-		1C6EE78926C30148006C6B46 /* ScrumUserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumUserCollectionViewCell.swift; sourceTree = "<group>"; };
+		1C6EE78126C2FE87006C6B46 /* CompaniesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesViewController.swift; sourceTree = "<group>"; };
+		1C6EE78926C30148006C6B46 /* CompanyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCollectionViewCell.swift; sourceTree = "<group>"; };
 		1C6EE78C26C33A9A006C6B46 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		47ABA80626C4A6D300FBBE63 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,8 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				1C6EE75D26C2AC60006C6B46 /* HomeViewController.swift */,
-				1C6EE78126C2FE87006C6B46 /* ScrumUsersViewController.swift */,
-				1C6EE78926C30148006C6B46 /* ScrumUserCollectionViewCell.swift */,
+				1C6EE78126C2FE87006C6B46 /* CompaniesViewController.swift */,
+				1C6EE78926C30148006C6B46 /* CompanyCollectionViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -223,8 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C6EE78A26C30148006C6B46 /* ScrumUserCollectionViewCell.swift in Sources */,
-				1C6EE78226C2FE87006C6B46 /* ScrumUsersViewController.swift in Sources */,
+				1C6EE78A26C30148006C6B46 /* CompanyCollectionViewCell.swift in Sources */,
+				1C6EE78226C2FE87006C6B46 /* CompaniesViewController.swift in Sources */,
 				1C6EE77326C2BBD5006C6B46 /* Principles.swift in Sources */,
 				47ABA80726C4A6D300FBBE63 /* UIView+Extensions.swift in Sources */,
 				1C6EE77E26C2FB06006C6B46 /* PrinciplesService.swift in Sources */,

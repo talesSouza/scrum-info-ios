@@ -51,7 +51,7 @@ extension HomeViewController {
 // MARK: - Navigation
 extension HomeViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let vc = segue.destination as? ScrumUsersViewController {
+        if let vc = segue.destination as? CompaniesViewController {
             vc.user = user
         }
     }
