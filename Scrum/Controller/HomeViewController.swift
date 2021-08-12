@@ -11,11 +11,12 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var scrumMasterButton: UIButton!
     @IBOutlet weak var scrumUsersButton: UIButton!
     
+    // MARK: - Computed Properties
     var buttons: [UIButton] {
         [learnScrumButton, scrumUsersButton, scrumMasterButton]
     }
     
-    // MARK: - Properties
+    // MARK: - Stored Properties
     let principlesService = PrinciplesService()
     var user = User()
 }
