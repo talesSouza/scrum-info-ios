@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1C6EE75A26C2AC60006C6B46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE75926C2AC60006C6B46 /* AppDelegate.swift */; };
 		1C6EE75C26C2AC60006C6B46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE75B26C2AC60006C6B46 /* SceneDelegate.swift */; };
-		1C6EE75E26C2AC60006C6B46 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE75D26C2AC60006C6B46 /* InitialViewController.swift */; };
+		1C6EE75E26C2AC60006C6B46 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE75D26C2AC60006C6B46 /* HomeViewController.swift */; };
 		1C6EE76126C2AC60006C6B46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EE75F26C2AC60006C6B46 /* Main.storyboard */; };
 		1C6EE76326C2AC61006C6B46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EE76226C2AC61006C6B46 /* Assets.xcassets */; };
 		1C6EE76626C2AC61006C6B46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EE76426C2AC61006C6B46 /* LaunchScreen.storyboard */; };
@@ -26,7 +26,7 @@
 		1C6EE75626C2AC60006C6B46 /* Scrum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6EE75926C2AC60006C6B46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C6EE75B26C2AC60006C6B46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1C6EE75D26C2AC60006C6B46 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		1C6EE75D26C2AC60006C6B46 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1C6EE76026C2AC60006C6B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C6EE76226C2AC61006C6B46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C6EE76526C2AC61006C6B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,11 +70,11 @@
 		1C6EE75826C2AC60006C6B46 /* Scrum */ = {
 			isa = PBXGroup;
 			children = (
-				47ABA80426C4A6C700FBBE63 /* Extensions */,
 				47ABA7F626C49E7200FBBE63 /* App */,
 				1C6EE76D26C2AC78006C6B46 /* Controller */,
-				47ABA7F326C49BDB00FBBE63 /* Resources */,
+				47ABA80426C4A6C700FBBE63 /* Extensions */,
 				1C6EE76F26C2AC85006C6B46 /* Model */,
+				47ABA7F326C49BDB00FBBE63 /* Resources */,
 				47ABA7F426C49D5300FBBE63 /* Service */,
 				1C6EE76E26C2AC7F006C6B46 /* View */,
 			);
@@ -84,8 +84,9 @@
 		1C6EE76D26C2AC78006C6B46 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1C6EE75D26C2AC60006C6B46 /* InitialViewController.swift */,
-				1C6EE78B26C30F80006C6B46 /* ScrumUsers */,
+				1C6EE75D26C2AC60006C6B46 /* HomeViewController.swift */,
+				1C6EE78126C2FE87006C6B46 /* ScrumUsersViewController.swift */,
+				1C6EE78926C30148006C6B46 /* ScrumUserCollectionViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -105,15 +106,6 @@
 				1C6EE78C26C33A9A006C6B46 /* User.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		1C6EE78B26C30F80006C6B46 /* ScrumUsers */ = {
-			isa = PBXGroup;
-			children = (
-				1C6EE78126C2FE87006C6B46 /* ScrumUsersViewController.swift */,
-				1C6EE78926C30148006C6B46 /* ScrumUserCollectionViewCell.swift */,
-			);
-			path = ScrumUsers;
 			sourceTree = "<group>";
 		};
 		47ABA7F326C49BDB00FBBE63 /* Resources */ = {
@@ -237,7 +229,7 @@
 				47ABA80726C4A6D300FBBE63 /* UIView+Extensions.swift in Sources */,
 				1C6EE77E26C2FB06006C6B46 /* PrinciplesService.swift in Sources */,
 				1C6EE78D26C33A9A006C6B46 /* User.swift in Sources */,
-				1C6EE75E26C2AC60006C6B46 /* InitialViewController.swift in Sources */,
+				1C6EE75E26C2AC60006C6B46 /* HomeViewController.swift in Sources */,
 				1C6EE75A26C2AC60006C6B46 /* AppDelegate.swift in Sources */,
 				1C6EE75C26C2AC60006C6B46 /* SceneDelegate.swift in Sources */,
 			);
