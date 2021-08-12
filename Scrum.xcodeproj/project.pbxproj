@@ -19,6 +19,7 @@
 		1C6EE78226C2FE87006C6B46 /* ScrumUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE78126C2FE87006C6B46 /* ScrumUsersViewController.swift */; };
 		1C6EE78A26C30148006C6B46 /* ScrumUserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE78926C30148006C6B46 /* ScrumUserCollectionViewCell.swift */; };
 		1C6EE78D26C33A9A006C6B46 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EE78C26C33A9A006C6B46 /* User.swift */; };
+		47ABA80726C4A6D300FBBE63 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ABA80626C4A6D300FBBE63 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		1C6EE78126C2FE87006C6B46 /* ScrumUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumUsersViewController.swift; sourceTree = "<group>"; };
 		1C6EE78926C30148006C6B46 /* ScrumUserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumUserCollectionViewCell.swift; sourceTree = "<group>"; };
 		1C6EE78C26C33A9A006C6B46 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		47ABA80626C4A6D300FBBE63 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		1C6EE75826C2AC60006C6B46 /* Scrum */ = {
 			isa = PBXGroup;
 			children = (
+				47ABA80426C4A6C700FBBE63 /* Extensions */,
 				47ABA7F626C49E7200FBBE63 /* App */,
 				1C6EE76D26C2AC78006C6B46 /* Controller */,
 				47ABA7F326C49BDB00FBBE63 /* Resources */,
@@ -149,6 +152,14 @@
 			path = JSON;
 			sourceTree = "<group>";
 		};
+		47ABA80426C4A6C700FBBE63 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				47ABA80626C4A6D300FBBE63 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,6 +234,7 @@
 				1C6EE78A26C30148006C6B46 /* ScrumUserCollectionViewCell.swift in Sources */,
 				1C6EE78226C2FE87006C6B46 /* ScrumUsersViewController.swift in Sources */,
 				1C6EE77326C2BBD5006C6B46 /* Principles.swift in Sources */,
+				47ABA80726C4A6D300FBBE63 /* UIView+Extensions.swift in Sources */,
 				1C6EE77E26C2FB06006C6B46 /* PrinciplesService.swift in Sources */,
 				1C6EE78D26C33A9A006C6B46 /* User.swift in Sources */,
 				1C6EE75E26C2AC60006C6B46 /* InitialViewController.swift in Sources */,
