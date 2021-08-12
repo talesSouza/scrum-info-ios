@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NDQ-RB-wPa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NDQ-RB-wPa">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -283,7 +283,7 @@
         <!--Control-->
         <scene sceneID="YUD-wK-hEP">
             <objects>
-                <viewController storyboardIdentifier="2" id="5QM-Cr-gIP" sceneMemberID="viewController">
+                <viewController id="5QM-Cr-gIP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gca-wi-16P">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -363,6 +363,9 @@
                         <segue destination="5QM-Cr-gIP" kind="relationship" relationship="viewControllers" id="vf6-47-ShW"/>
                         <segue destination="ZIX-wv-STN" kind="relationship" relationship="viewControllers" id="6cR-gs-VU2"/>
                         <segue destination="oNd-U9-76J" kind="relationship" relationship="viewControllers" id="CQD-2C-vcD"/>
+                        <segue destination="Pdq-gj-pTI" kind="relationship" relationship="viewControllers" id="ENw-hV-7UQ"/>
+                        <segue destination="OLH-fs-7Zb" kind="relationship" relationship="viewControllers" id="dyx-KX-xqR"/>
+                        <segue destination="wvg-aL-3Ms" kind="relationship" relationship="viewControllers" id="jVc-4J-5KI"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wd9-Zy-eSs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -372,7 +375,7 @@
         <!--Collaboration-->
         <scene sceneID="W2F-JF-SOb">
             <objects>
-                <viewController storyboardIdentifier="1" id="ZIX-wv-STN" sceneMemberID="viewController">
+                <viewController id="ZIX-wv-STN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sdm-R6-gke">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -421,7 +424,7 @@
         <!--Self org-->
         <scene sceneID="dJa-kU-GD9">
             <objects>
-                <viewController storyboardIdentifier="3" id="oNd-U9-76J" customClass="PrincipleSelfOrgViewController" customModule="Scrum" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oNd-U9-76J" customClass="PrincipleSelfOrgViewController" customModule="Scrum" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GaZ-sj-XGW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -465,7 +468,157 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TOR-eM-1L2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2638" y="813"/>
+            <point key="canvasLocation" x="2638" y="828"/>
+        </scene>
+        <!--Timeboxing-->
+        <scene sceneID="uLc-0m-Gqx">
+            <objects>
+                <viewController id="Pdq-gj-pTI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bzv-Ld-san">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="diy-pn-L1W">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timeboxing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kvg-go-1Mx">
+                                <rect key="frame" x="82" y="118" width="250" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="MR0-tQ-EkF"/>
+                                    <constraint firstAttribute="height" constant="50" id="skR-Qe-Rsq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="2Fo-NV-OCl">
+                                <rect key="frame" x="40" y="208" width="334" height="525"/>
+                                <string key="text">It implies allocating and scheduling certain amounts of time for certain activities. In Scrum, work is done in short release cycles called “sprints” (usually 2-4 weeks). Tasks are determined during sprint planning (usually around 1-2 hours), monitored and discussed at daily meetings (usually around 15 minutes), evaluated during sprint reviews (usually around 1-2 hours), etc.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jbJ-TI-prt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kvg-go-1Mx" firstAttribute="top" secondItem="jbJ-TI-prt" secondAttribute="top" constant="30" id="G7h-bn-elp"/>
+                            <constraint firstItem="jbJ-TI-prt" firstAttribute="bottom" secondItem="diy-pn-L1W" secondAttribute="bottom" id="No9-Pw-rLN"/>
+                            <constraint firstItem="jbJ-TI-prt" firstAttribute="trailing" secondItem="diy-pn-L1W" secondAttribute="trailing" id="TbM-2j-5BQ"/>
+                            <constraint firstItem="diy-pn-L1W" firstAttribute="top" secondItem="Bzv-Ld-san" secondAttribute="top" id="XTr-mE-Zyd"/>
+                            <constraint firstItem="jbJ-TI-prt" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="2Fo-NV-OCl" secondAttribute="bottom" constant="80" id="cHB-o8-qMy"/>
+                            <constraint firstItem="jbJ-TI-prt" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2Fo-NV-OCl" secondAttribute="trailing" constant="40" id="gBC-GU-3CU"/>
+                            <constraint firstItem="2Fo-NV-OCl" firstAttribute="top" secondItem="kvg-go-1Mx" secondAttribute="bottom" constant="40" id="oIx-4v-aaU"/>
+                            <constraint firstItem="kvg-go-1Mx" firstAttribute="centerX" secondItem="Bzv-Ld-san" secondAttribute="centerX" id="qZd-Zy-C21"/>
+                            <constraint firstItem="2Fo-NV-OCl" firstAttribute="leading" secondItem="jbJ-TI-prt" secondAttribute="leading" constant="40" id="uR8-GJ-8Vm"/>
+                            <constraint firstItem="diy-pn-L1W" firstAttribute="leading" secondItem="jbJ-TI-prt" secondAttribute="leading" id="vGC-wg-MNZ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Timeboxing" id="Ez7-61-HQg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dfA-s6-hY9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2638" y="-1288"/>
+        </scene>
+        <!--Iterative dev-->
+        <scene sceneID="DUc-h3-DsR">
+            <objects>
+                <viewController storyboardIdentifier="1" id="OLH-fs-7Zb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gt8-qC-W45">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="ldB-wU-ekF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Iterative development" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iG8-g5-qqu">
+                                <rect key="frame" x="82" y="118" width="250" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3MR-fI-xDX"/>
+                                    <constraint firstAttribute="width" constant="250" id="yFP-2X-nx6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ypP-ST-ceE">
+                                <rect key="frame" x="40" y="208" width="331" height="311.5"/>
+                                <string key="text">As the project requirements in Scrum are constantly being adjusted and revised, software development activities in this framework are also repeated, revisited, and reworked to create the best product</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zsA-fc-HRe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zsA-fc-HRe" firstAttribute="bottom" secondItem="ldB-wU-ekF" secondAttribute="bottom" id="219-x8-kat"/>
+                            <constraint firstItem="zsA-fc-HRe" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ypP-ST-ceE" secondAttribute="trailing" constant="40" id="2VT-ms-RTW"/>
+                            <constraint firstItem="zsA-fc-HRe" firstAttribute="trailing" secondItem="ldB-wU-ekF" secondAttribute="trailing" id="35H-9Q-IgA"/>
+                            <constraint firstItem="ypP-ST-ceE" firstAttribute="top" secondItem="iG8-g5-qqu" secondAttribute="bottom" constant="40" id="680-Pz-gNm"/>
+                            <constraint firstItem="ypP-ST-ceE" firstAttribute="leading" secondItem="zsA-fc-HRe" secondAttribute="leading" constant="40" id="YW3-MO-CEJ"/>
+                            <constraint firstItem="ldB-wU-ekF" firstAttribute="leading" secondItem="zsA-fc-HRe" secondAttribute="leading" id="cRJ-nQ-r0M"/>
+                            <constraint firstItem="zsA-fc-HRe" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ypP-ST-ceE" secondAttribute="bottom" constant="80" id="fly-7b-Cjg"/>
+                            <constraint firstItem="ldB-wU-ekF" firstAttribute="top" secondItem="gt8-qC-W45" secondAttribute="top" id="lVo-pe-oLn"/>
+                            <constraint firstItem="iG8-g5-qqu" firstAttribute="top" secondItem="zsA-fc-HRe" secondAttribute="top" constant="30" id="lts-Av-vVD"/>
+                            <constraint firstItem="iG8-g5-qqu" firstAttribute="centerX" secondItem="gt8-qC-W45" secondAttribute="centerX" id="nrv-eu-uTd"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Iterative dev" id="Qml-b8-uwB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zTU-WV-pzS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2638" y="-2016"/>
+        </scene>
+        <!--Value-based-->
+        <scene sceneID="7lh-Kr-VRQ">
+            <objects>
+                <viewController id="wvg-aL-3Ms" customClass="PrincipleSelfOrgViewController" customModule="Scrum" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bwF-UI-dAy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="c8Q-4h-h5A">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Value-based prioritization" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WAJ-7v-VLV">
+                                <rect key="frame" x="82" y="118" width="250" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="gSW-zU-ZOr"/>
+                                    <constraint firstAttribute="width" constant="250" id="hMp-uF-n6W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ud1-KZ-wgO">
+                                <rect key="frame" x="40" y="208" width="328.5" height="277"/>
+                                <string key="text">In Scrum, tasks are constantly prioritized based on their value and importance for the end-users and the company to determine the order in which these tasks need to be completed.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bVq-aW-9X3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bVq-aW-9X3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ud1-KZ-wgO" secondAttribute="trailing" constant="40" id="91W-c6-cCl"/>
+                            <constraint firstItem="c8Q-4h-h5A" firstAttribute="top" secondItem="bwF-UI-dAy" secondAttribute="top" id="DLD-UG-YHd"/>
+                            <constraint firstItem="Ud1-KZ-wgO" firstAttribute="leading" secondItem="bVq-aW-9X3" secondAttribute="leading" constant="40" id="F5f-oO-vgV"/>
+                            <constraint firstItem="c8Q-4h-h5A" firstAttribute="trailing" secondItem="bVq-aW-9X3" secondAttribute="trailing" id="G6B-9H-SxG"/>
+                            <constraint firstItem="WAJ-7v-VLV" firstAttribute="top" secondItem="bVq-aW-9X3" secondAttribute="top" constant="30" id="G9J-f1-IBo"/>
+                            <constraint firstItem="c8Q-4h-h5A" firstAttribute="leading" secondItem="bwF-UI-dAy" secondAttribute="leading" id="LSe-EU-koq"/>
+                            <constraint firstItem="WAJ-7v-VLV" firstAttribute="centerX" secondItem="bwF-UI-dAy" secondAttribute="centerX" id="MIT-rZ-C9I"/>
+                            <constraint firstItem="bVq-aW-9X3" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Ud1-KZ-wgO" secondAttribute="bottom" constant="80" id="ZZd-Rl-Va9"/>
+                            <constraint firstItem="Ud1-KZ-wgO" firstAttribute="top" secondItem="WAJ-7v-VLV" secondAttribute="bottom" constant="40" id="kBY-hq-5Gw"/>
+                            <constraint firstItem="c8Q-4h-h5A" firstAttribute="bottom" secondItem="bVq-aW-9X3" secondAttribute="bottom" id="pKe-LV-Vnd"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Value-based" id="0Dt-Bf-vJ7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ri1-HU-Vmb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2638" y="1552"/>
         </scene>
     </scenes>
     <resources>

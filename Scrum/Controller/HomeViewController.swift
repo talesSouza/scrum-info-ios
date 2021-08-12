@@ -12,7 +12,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var scrumUsersButton: UIButton!
     
     var buttons: [UIButton] {
-        [learnScrumButton, scrumUsersButton, scrumUsersButton]
+        [learnScrumButton, scrumUsersButton, scrumMasterButton]
     }
     
     // MARK: - Properties
